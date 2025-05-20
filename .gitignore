@@ -1,0 +1,59 @@
+# =============================================
+# General OS/Editor Files
+# =============================================
+.DS_Store           # macOS
+.thumbs.db          # Windows
+.idea/              # JetBrains IDE (WebStorm, IntelliJ)
+.vscode/            # VS Code
+*.sublime-workspace # Sublime Text
+
+# =============================================
+# Frontend (React/Vue/Angular/etc.)
+# =============================================
+frontend/node_modules/
+frontend/.env
+frontend/.cache/
+frontend/*.log
+
+# =============================================
+# Backend (Node.js/Python/etc.)
+# =============================================
+backend/node_modules/
+backend/.env
+backend/logs/
+backend/*.log
+
+# =============================================
+# Admin Panel
+# =============================================
+admin/node_modules/
+admin/.env
+
+# =============================================
+# Universal Ignored Files
+# =============================================
+*.log               # Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories (all)
+**/node_modules/
+.cache/
+
+# Environment files (all)
+.env
+.env.local
+.env*.local
+
+# Build folders (all)
+dist/
+out/
+.next/
+
+# Cache folders
+.cache/
+.temp/
